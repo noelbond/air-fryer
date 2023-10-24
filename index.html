@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Fryer Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="home-header">Air Fryer Conversion</h1>
+
+    <div id="cook-input">
+        <Label>Tempurature</Label><br>
+        <input type="number" id="temp-input"><br>
+        <label>Time</label><br>
+        <input type="number" id="time-input"><br>
+        <button type="submit" id="submit">Calculate</button>
+    </div>
+
+    <div id="toggle">
+        <input type="checkbox" id="switch" class="checkbox" />
+
+        <label for="switch" class="toggle">
+            <p>
+                °C °F
+            </p>
+        </label>
+    </div>
+
+    <h1 id="result-header">Results</h1>
+    <div id="results">
+        <p>Cook at <span id="resultTemp"></span>° <br> for <span id="resultTime"></span> minutes</p>
+        <button id="back">Back</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
