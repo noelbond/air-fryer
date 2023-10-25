@@ -14,7 +14,7 @@ toggle.addEventListener("change", function () {
 });
 
 function conversion(temp, time) {
-    resultTemp = Math.floor(temp + 25);
+    resultTemp = Math.floor(temp - 25);
     resultTime = time * 0.7;
 }
 
